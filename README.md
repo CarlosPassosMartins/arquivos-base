@@ -52,7 +52,7 @@ Você pode usar os seguintes scripts npm para compilar seus arquivos:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/CarlosPassosMartins/arquivo-de-start
+git clone https://github.com/CarlosPassosMartins/arquivos-base
 ```
 
 ### 2. Instale as dependências
