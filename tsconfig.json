@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es6",                     // versão do JS gerado
+    "module": "commonjs",                // ou outro como 'esnext'
+    "rootDir": "./src/ts",      // onde estão os arquivos .ts
+    "outDir": "./public/assets/js",         // para onde vai o .js gerado
+    "strict": true,                      // boas práticas
+    "allowJs": false                     // desativa arquivos .js na compilação
+  },
+  "include": ["src/ts"]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "projeto-padrao",
+  "version": "1.0.0",
+  "scripts": {
+    "build:ts": "tsc",
+    "build:sass": "sass src/sass/style.scss public/assets/styles/style.css",
+    "build": "npm run build:ts && npm run build:sass",
+    "watch:sass": "sass --watch src/sass/style.scss:public/assets/styles/style.css",
+    "watch:ts": "tsc --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2",
+    "typescript": "^5.9.2"
+  }
+}
